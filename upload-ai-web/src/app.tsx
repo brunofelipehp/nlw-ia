@@ -12,6 +12,7 @@ import {
 } from "./components/ui/select";
 import { Slider } from "./components/ui/slider";
 import { VideoInputForm } from "./components/video-input-form";
+import { PromptSelect } from "./components/prompt-select";
 
 export const App = () => {
   return (
@@ -63,17 +64,7 @@ export const App = () => {
           <form className="space-y-6">
             <div className="space-y-2">
               <Label>Prompt</Label>
-              <Select>
-                <SelectTrigger>
-                  <SelectValue placeholder="Selecione um prompt..." />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="title">Título do Youtube</SelectItem>
-                  <SelectItem value="description">
-                    Descrição do Youtube
-                  </SelectItem>
-                </SelectContent>
-              </Select>
+              <PromptSelect />
             </div>
 
             <div className="space-y-2">
