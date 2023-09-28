@@ -1,5 +1,5 @@
 {
-  "name": "upload-ia-api",
+  "name": "api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
   "devDependencies": {
     "@types/node": "^20.6.3",
     "dotenv": "^16.3.1",
@@ -20,6 +23,7 @@
     "@fastify/cors": "^8.4.0",
     "@fastify/multipart": "^7.7.3",
     "@prisma/client": "5.3.1",
+    "ai": "^2.2.13",
     "fastify": "^4.23.2",
     "openai": "^4.10.0",
     "zod": "^3.22.2"
