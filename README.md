@@ -8,13 +8,13 @@
   <p align="center">
     <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#-contatos">Contatos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
      <a href="#-instalacao">Instação</a>
   </p>
   
   <br />
   
-  <img src="./assets/project.png" />
+  <img src="./assets/project-01.jpeg" />
+  <img src="./assets/project-02.jpeg" />
 </div>
 
 ## 🌟 **Projeto**
@@ -41,10 +41,10 @@ A lista de tecnologias abaixo mostra um pouco do que foi abordado nesta semana d
 - [Tailwind](https://tailwindcss.com/)
 - [Radix UI Primitives](https://www.radix-ui.com/primitives)
 
-## 📦<span id="instacao"> Instalação </span>
+## 📦<span id="instalacao"> Instalação </span>
 
 > <p>Para clonar e executar está aplicação, você precisará do Git, NodeJS v18.17.1 ou superior + npm v9.17.1 ou superior e o PNPm 8.7.5 instalado no seu computador.</p>
-> <p> Nesse Projeto utilizamos pnpm.</p> 
+> <p> Nesse Projeto utilizamos PNPM como gerenciador de pacote.</p> 
 > <p>Este repositório é dividido em dois diretórios.</P>
 > <p>Veja como instalar as duas partes do projeto logo abaixo: </p>
 
@@ -54,7 +54,7 @@ A lista de tecnologias abaixo mostra um pouco do que foi abordado nesta semana d
 <p>Para clonar o projeto:</p>
 
 ```bash
-git clone
+git clone https://github.com/brunofelipehp/nlw-ia.git
 ```
 
 <h2 align="center">Front-End</h2>
@@ -97,7 +97,6 @@ $ npm install
 
 <p>Crie o arquivo .env com as variáveis de ambiente necessárias:</p>
 <span></span>
-
 
 ```bash
 DATABASE_URL="file:./dev.db"
