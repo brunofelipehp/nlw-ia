@@ -13,8 +13,8 @@
   
   <br />
   
-  <img src="./assets/project-01.jpeg" />
-  <img src="./assets/project-02.jpeg" />
+  <img src="./web/public/assets/project-01.jpeg" />
+  <img src="./web/public/assets/project-02.jpeg" />
 </div>
 
 ## 🌟 **Projeto**
