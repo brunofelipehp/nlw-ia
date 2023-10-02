@@ -41,7 +41,7 @@ A lista de tecnologias abaixo mostra um pouco do que foi abordado nesta semana d
 - [Tailwind](https://tailwindcss.com/)
 - [Radix UI Primitives](https://www.radix-ui.com/primitives)
 
-## 📦<span id="#-instalacao"> Instalação </span>
+## 📦 **Instalação**
 
 > <p>Para clonar e executar está aplicação, você precisará do Git, NodeJS v18.17.1 ou superior + npm v9.17.1 ou superior e o PNPm 8.7.5 instalado no seu computador.</p>
 > <p> Nesse Projeto utilizamos PNPM como gerenciador de pacote.</p> 
